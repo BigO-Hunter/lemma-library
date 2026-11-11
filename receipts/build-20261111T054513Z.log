@@ -1,0 +1,70 @@
+2026-11-11T05:57:20.936560+00:00 lock=acquired targets=LemmaLibrary
+
+=== lake build LemmaLibrary rc=1 ===
+⚠ [8924/8934] Replayed LemmaLibrary.Quadrature.Characters
+warning: src/LemmaLibrary/Quadrature/Characters.lean:71:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:83:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:62:4: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:68:17: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:110:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:115:6: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:145:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:145:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:147:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:147:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:155:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:155:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:157:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:157:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:167:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:169:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:169:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:170:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:170:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:251:13: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_add_distrib]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:315:15: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+✖ [8925/8934] Building LemmaLibrary.Carry.Numerals (35s)
+trace: .> LEAN_PATH=/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/Cli/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/batteries/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/Qq/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/aesop/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/proofwidgets/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/importGraph/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/plausible/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/kapila-row-lane/.lake/packages/mathlib/.lake/build/lib/lean:/Volumes/Substrate-1/bigo/lemma-library/.lake/build/lib/lean /Users/dmitri.arkhipov/.elan/toolchains/leanprover--lean4---v4.34.1/bin/lean /Volumes/Substrate-1/bigo/lemma-library/src/LemmaLibrary/Carry/Numerals.lean -o /Volumes/Substrate-1/bigo/lemma-library/.lake/build/lib/lean/LemmaLibrary/Carry/Numerals.olean -i /Volumes/Substrate-1/bigo/lemma-library/.lake/build/lib/lean/LemmaLibrary/Carry/Numerals.ilean -c /Volumes/Substrate-1/bigo/lemma-library/.lake/build/ir/LemmaLibrary/Carry/Numerals.c --setup /Volumes/Substrate-1/bigo/lemma-library/.lake/build/ir/LemmaLibrary/Carry/Numerals.setup.json --json
+error: src/LemmaLibrary/Carry/Numerals.lean:57:64: unexpected token '/--'; expected 'lemma'
+error: src/LemmaLibrary/Carry/Numerals.lean:74:69: unexpected token '/--'; expected 'lemma'
+error: src/LemmaLibrary/Carry/Numerals.lean:84:37: unexpected token '/--'; expected 'lemma'
+error: src/LemmaLibrary/Carry/Numerals.lean:104:60: unexpected token 'end'; expected 'lemma'
+⚠ [8930/8934] Built LemmaLibrary.Quadrature.Strip (37s)
+warning: src/LemmaLibrary/Quadrature/Strip.lean:52:12: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/LemmaLibrary/Quadrature/Strip.lean:84:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Strip.lean:88:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [8931/8934] Built LemmaLibrary.Envelope.Absorb (36s)
+warning: src/LemmaLibrary/Envelope/Absorb.lean:50:5: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [8932/8934] Built LemmaLibrary.Quadrature.Decay (8.6s)
+info: src/LemmaLibrary/Quadrature/Decay.lean:252:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: src/LemmaLibrary/Quadrature/Decay.lean:264:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Some required targets logged failures:
+- LemmaLibrary.Carry.Numerals
+error: build failed

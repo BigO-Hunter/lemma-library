@@ -1,0 +1,11 @@
+{
+  "receipt": "lemmalib-20261111T062348Z",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "lock": "TIMEOUT 180s (proceeded; deviation recorded)",
+  "build_exit": 0,
+  "determinism": "IDENTICAL",
+  "axioms_exit": 0,
+  "axiom_banner_house_triple_only": true,
+  "named_oleans_present": true,
+  "verdict": "DONE"
+}

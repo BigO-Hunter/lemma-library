@@ -1,0 +1,6 @@
+2026-11-11T05:39:06.095483+00:00 gate iter=1 swapouts_delta60=0 free_pct=68 verdict=PROCEED
+2026-11-11T05:40:35.443217+00:00 gate iter=1 swapouts_delta60=0 free_pct=69 verdict=PROCEED
+2026-11-11T05:42:58.655536+00:00 gate iter=1 swapouts_delta60=0 free_pct=69 verdict=PROCEED
+2026-11-11T05:46:13.435050+00:00 gate iter=1 swapouts_delta60=96404 free_pct=67 verdict=wait
+2026-11-11T05:47:13.472165+00:00 gate iter=2 swapouts_delta60=0 free_pct=68 verdict=PROCEED
+2026-11-11T06:01:16.085550+00:00 gate iter=1 swapouts_delta60=0 free_pct=75 verdict=PROCEED

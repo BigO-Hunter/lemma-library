@@ -1,0 +1,9 @@
+2026-11-11T05:41:45.572811+00:00 lock=acquired targets=LemmaLibrary.Quadrature.Characters
+
+=== lake build LemmaLibrary.Quadrature.Characters rc=1 ===
+✖ [2/2] Running LemmaLibrary.Quadrature.Characters
+error: no such file or directory (error code: 2)
+  file: /Volumes/Substrate-1/bigo/lemma-library/LemmaLibrary/Quadrature/Characters.lean
+Some required targets logged failures:
+- LemmaLibrary.Quadrature.Characters
+error: build failed

@@ -1,0 +1,74 @@
+⚠ [8924/8935] Replayed LemmaLibrary.Quadrature.Characters
+warning: src/LemmaLibrary/Quadrature/Characters.lean:71:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:83:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:62:4: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:68:17: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:110:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:115:6: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:145:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:145:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:147:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:147:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:155:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:155:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:157:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:157:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:167:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:169:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:169:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:170:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:170:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Quadrature/Characters.lean:251:13: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_add_distrib]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/LemmaLibrary/Quadrature/Characters.lean:315:15: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+⚠ [8925/8935] Replayed LemmaLibrary.Quadrature.Strip
+warning: src/LemmaLibrary/Quadrature/Strip.lean:52:12: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: src/LemmaLibrary/Quadrature/Strip.lean:84:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Quadrature/Strip.lean:88:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+ℹ [8926/8935] Replayed LemmaLibrary.Quadrature.Decay
+info: src/LemmaLibrary/Quadrature/Decay.lean:252:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: src/LemmaLibrary/Quadrature/Decay.lean:264:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [8930/8935] Replayed LemmaLibrary.Digitwise.Core
+warning: src/LemmaLibrary/Digitwise/Core.lean:35:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Digitwise/Core.lean:39:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Digitwise/Core.lean:244:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Digitwise/Core.lean:247:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [8932/8935] Replayed LemmaLibrary.Digitwise.HalfTest
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:99:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:101:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:103:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:105:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:107:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:109:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:111:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: src/LemmaLibrary/Digitwise/HalfTest.lean:113:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [8933/8935] Replayed LemmaLibrary.Envelope.Absorb
+warning: src/LemmaLibrary/Envelope/Absorb.lean:50:5: Variable name `hE` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hE
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8934/8935] Built LemmaLibrary (40s)
+Build completed successfully (8935 jobs).
