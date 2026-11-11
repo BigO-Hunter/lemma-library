@@ -1,0 +1,9 @@
+107fd9f1a8c32740d3aaee144cc76ab49ccbf51feff7ddcbf33108e180a972bd  .lake/build/lib/lean/LemmaLibrary/Quadrature/Characters.olean
+6f28084911f55e1624166ddb5fe8cbb838a417dae5a4726d471eaf966152a6b2  .lake/build/lib/lean/LemmaLibrary/Quadrature/Strip.olean
+2abe3bf30bad1f1345958a21368f7395b2524f9576ebbe421c2738c96431fcbc  .lake/build/lib/lean/LemmaLibrary/Quadrature/Decay.olean
+5649d670bc9ed3590162b14807084384c75764c64c1a9e7b83f628b09b1eef64  .lake/build/lib/lean/LemmaLibrary/Carry/Numerals.olean
+be9988a07c3d3de1b9032ab772044089004fe5ab966882614db55305f28813bc  .lake/build/lib/lean/LemmaLibrary/Carry/PlaceValue.olean
+816e69882dd4b69458f69b97aad49c7b2824710eeb0e7ddca3ca79d303a3cb34  .lake/build/lib/lean/LemmaLibrary/Carry/NotWordResident.olean
+90fb45e31c18a72d1fc81670cea425c438344b07a084239274ecc9f00a29ce9a  .lake/build/lib/lean/LemmaLibrary/Digitwise/Core.olean
+28a98058a749b12cbd02034441f1f66471aa22caeac914af10bf4f89cfbd85ca  .lake/build/lib/lean/LemmaLibrary/Digitwise/HalfTest.olean
+2d1acd4a083046bf0760ec187671f0c5e164cc5543b967e1c0e208f748c1c677  .lake/build/lib/lean/LemmaLibrary/Envelope/Absorb.olean
