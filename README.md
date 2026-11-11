@@ -42,6 +42,19 @@ lake exe cache get      # Mathlib oleans for the pinned rev
 python3 receipts.py     # build + double-compile + axiom banner, fail-closed
 ```
 
+Landed receipts are kept under `receipts/`. The authoritative one is
+`receipts/lemmalib-20261111T062348Z/`:
+
+```json
+{"build_exit": 0, "determinism": "IDENTICAL", "axioms_exit": 0,
+ "axiom_banner_house_triple_only": true, "named_oleans_present": true, "verdict": "DONE"}
+```
+
+(The one non-trivial field there is `"lock": "TIMEOUT 180s (proceeded; deviation
+recorded)"` — the shared fleet build lock was held by another lane and the runner
+proceeded after a bounded wait instead of blocking indefinitely, which is the documented
+behaviour and is recorded rather than hidden.)
+
 ## 3. How to use it
 
 ```bash
