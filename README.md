@@ -13,7 +13,7 @@
 
 **Status.** Complete extraction: 93 declarations, sorry-free, exactly `[propext, Classical.choice, Quot.sound]`, pinned Lean v4.34.1 / Mathlib `d13f23b7`; recorded build/axiom receipts in `receipts/`.
 
-**Reproduction.** `lake exe cache get && lake build` against the pinned toolchain (`lean-toolchain`, `lake-manifest.json`); `receipts/` holds the recorded gated builds.
+**Reproduction.** Sources live in `src/` (root module `LemmaLibrary.lean`); this shelf carries no standalone lakefile. Drop `src/` into a Lake project at the campaign pins (Lean v4.34.1 / Mathlib `d13f23b7`) and `lake build LemmaLibrary`. `receipts/build-*.log` record exactly that build at rc=0 with the axiom gate; `receipts/gate.log` records the host-pressure gating.
 
 **License.** Licensed under the **Apache License 2.0** — deliberately not CFSF: this library exists to be upstreamed to Mathlib (Apache-2.0), and compatibility with the upstream's licensing + patent grant is the point. We hold the copyright; the choice is ours and revisitable. See `LICENSE`.
 
