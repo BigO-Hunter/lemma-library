@@ -9,7 +9,11 @@
 
 **Why it is up.** Each family's naive statement is false or exponentially worse — the note's defect table records five measured corrections (two false goals *proved* false, a rate-vs-constant misread worth 10¹⁸×, a wrong walk, an unsatisfiable amplitude form). The reusable content and the correction method are the point.
 
-**What work can be done here.** (a) The ranked Mathlib PRs (`docs/PLACEMENT.md`): `hdecay_of_strip` and `trap_error_char` lead — the latter is the sharpest diff against Mathlib's Lipschitz-only trapezoid bounds; (b) porting the cited-not-ported pieces (see `docs/NOTE.md` §5); (c) the `HasProd`/infinite-product companion work lives in `darkhipo/bochner-lane`.
+**What work can be done here.** (a) The ranked Mathlib PRs (`docs/PLACEMENT.md`): `hdecay_of_strip` and `trap_error_char` lead — the latter is the sharpest diff against Mathlib's Lipschitz-only trapezoid bounds; (b) porting the cited-not-ported pieces (see `docs/NOTE.md` §5); (c) the `HasProd`/infinite-product companion work lives in [BigO-Hunter/bochner-lane](https://github.com/BigO-Hunter/bochner-lane).
+
+**Status.** Complete extraction: 93 declarations, sorry-free, exactly `[propext, Classical.choice, Quot.sound]`, pinned Lean v4.34.1 / Mathlib `d13f23b7`; recorded build/axiom receipts in `receipts/`.
+
+**Reproduction.** `lake exe cache get && lake build` against the pinned toolchain (`lean-toolchain`, `lake-manifest.json`); `receipts/` holds the recorded gated builds.
 
 **License.** Licensed under the **Apache License 2.0** — deliberately not CFSF: this library exists to be upstreamed to Mathlib (Apache-2.0), and compatibility with the upstream's licensing + patent grant is the point. We hold the copyright; the choice is ours and revisitable. See `LICENSE`.
 
